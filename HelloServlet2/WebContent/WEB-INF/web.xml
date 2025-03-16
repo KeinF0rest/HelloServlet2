@@ -22,4 +22,12 @@
     <url-pattern>/HelloServlet2/WelcomeServlet</url-pattern>
   </servlet-mapping>
 
+  <servlet>
+    <servlet-name>Inquiry</servlet-name>
+    <servlet-class>InquiryServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Inquiry</servlet-name>
+    <url-pattern>/HelloServlet2/InquiryServlet</url-pattern>
+  </servlet-mapping>
 </web-app>

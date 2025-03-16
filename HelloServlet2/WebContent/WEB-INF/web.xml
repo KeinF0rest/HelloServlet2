@@ -28,12 +28,20 @@
     <servlet-name>Inquiry</servlet-name>
     <url-pattern>/HelloServlet2/InquiryServlet</url-pattern>
   </servlet-mapping>
-   <servlet>
+  <servlet>
     <servlet-name>Test</servlet-name>
     <servlet-class>TestServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>Test</servlet-name>
     <url-pattern>/HelloServlet2/TestServlet</url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <servlet-name>MySQL</servlet-name>
+    <servlet-class>MySQLServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MySQL</servlet-name>
+    <url-pattern>/HelloServlet2/MySQLServlet</url-pattern>
   </servlet-mapping>
 </web-app>

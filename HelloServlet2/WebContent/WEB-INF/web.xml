@@ -4,14 +4,22 @@
   <welcome-file-list>
     <welcome-file>index.jsp</welcome-file>
   </welcome-file-list>
-
   <servlet>
-  	<servlet-name>Hello</servlet-name>
-  	<servlet-class>HelloServlet</servlet-class>
+    <servlet-name>Hello</servlet-name>
+    <servlet-class>HelloServlet</servlet-class>
   </servlet>
   <servlet-mapping>
-  	<servlet-name>Hello</servlet-name>
-  	<url-pattern>/HelloServlet2/HelloServlet</url-pattern>
+    <servlet-name>Hello</servlet-name>
+    <url-pattern>/HelloServlet2/HelloServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Welcome</servlet-name>
+    <servlet-class>WelcomeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Welcome</servlet-name>
+    <url-pattern>/HelloServlet2/WelcomeServlet</url-pattern>
   </servlet-mapping>
 
 </web-app>

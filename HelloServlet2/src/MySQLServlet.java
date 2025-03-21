@@ -41,7 +41,7 @@ public class MySQLServlet extends HttpServlet {
 		String password="";
 
 		try{
-			Class.forName("com.mysql.jdbcDriver").newInstance();
+			Class.forName("com.mysql.jdbc.Driver").newInstance();
 			conn=DriverManager.getConnection(url, user, password);
 
 			Statement stmt=conn.createStatement();
